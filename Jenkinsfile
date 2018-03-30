@@ -1,7 +1,4 @@
-import jenkins.model.*
-jenkins = Jenkins.instance
-
-node {
+pipeline {
    try {
     agent any
 	notifyBuild('STARTED')
